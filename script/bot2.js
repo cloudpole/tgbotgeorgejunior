@@ -1,9 +1,9 @@
 //
 const fs = require('fs'); 
 const TelegramBot = require('node-telegram-bot-api'); 
-const token = '1611822591:AAE01jo3QSp80vxIKztkzMSTl_PVtYEV2OE'; //BotFather токен
-const file = 'C:/Users/cloudp/Desktop/eggorjunior/text.txt'; //Директория файла для читки
-const groupid = '-1001451161166'; // ID чата
+const token = ''; //BotFather токен
+const file = '../text.txt'; //Директория файла для читки
+const groupid = ''; // ID чата, искать через Web версию телеги в URL строке
 const bot = new TelegramBot(token, {
     polling: true
 });
